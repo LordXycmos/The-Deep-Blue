@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.background-image {
+  background-image: url(https://i.ibb.co/k6Ws6XM/4k-ultra-hd-2160p-blue-concert-lights-br0yyh0hk7b8xzt1.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+/* HEADER STUFF */
+
+header {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  border-bottom: 2px solid aliceblue;
+  padding: 10px 0;
+  margin: 0 10%;
+}
+
+.header-btn {
+  height: 40px;
+  width: 38px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  transition-property: border;
+  transition-duration: 0.3s;
+}
+
+.header-btn:hover {
+  padding-bottom: 3px;
+  margin-bottom: 0;
+  border-bottom: 1px solid aliceblue;
+}
+
+/* MAIN CONTENT STUFF */
+
+.main-title {
+  text-align: center;
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 120px;
+  margin-top: 6%;
+}
+
+.main-title-text {
+  text-align: center;
+  color: aliceblue;
+  font-size: 17px;
+  margin-top: 0.5%;
+}
+
+.main-btn-position {
+  display: flex;
+  justify-content: center;
+}
+
+.main-btn {
+  background-color: aliceblue;
+  color: #616467;
+  border: 1px solid #616467;
+  border-radius: 500px;
+  padding: 10px 5%;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10%;
+  width: fit-content;
+  text-decoration: none;
+  transition-property: background-color, color;
+  transition-duration: 0.2s;
+}
+
+.main-btn:hover {
+  background-color: #616467;
+  color: aliceblue;
+}
+
+/* FOOTER */
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #0a1c31;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #cbe4de;
+}
+
+.footer-bottom {
+  display: flex;
+  background-color: #071220;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+
+.footer-nav {
+  text-decoration: none;
+  color: #cbe4de;
+  margin-left: 25px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 50em) {
+  .main-title {
+    font-size: 100px;
+  }
+
+  .main-btn {
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 30em) {
+  .main-title {
+    font-size: 80px;
+  }
+  .main-btn {
+    margin-top: 30%;
+  }
+  .footer-bottom {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 25em) {
+  .main-title {
+    font-size: 60px;
+  }
+
+  .main-btn {
+    margin-top: 30%;
+  }
+
+  .main-title-text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 20.7em) {
+  .footer-bottom {
+    font-size: 9px;
+  }
+  .footer-top {
+    font-size: 13px;
+  }
+}
+
+@media (max-height: 50em) {
+  .main-title {
+    margin-top: 10%;
+  }
+}
+
+@media (min-height: 73em) {
+  .background-image {
+    height: 1250px;
+  }
+
+  .main-btn {
+    padding: 2% 5%;
+  }
+}
